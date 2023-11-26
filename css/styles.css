@@ -1,0 +1,35 @@
+table.transparent-table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+th, td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: left;
+  color: white;
+  border-radius: 20px;
+}
+
+th {
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+td {
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+table.transparent-table, th, td {
+  border-radius: 20px;
+}
+
+.centered-image {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 400px;
+}
